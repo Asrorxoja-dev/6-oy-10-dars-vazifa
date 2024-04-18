@@ -18,7 +18,7 @@ function Navbar() {
 const signOutFunc = ()=>{
 signOut(auth)
 .then(()=>{
-  console.log("SIGN out");
+  console.log("sign out");
 })
 .catch((error)=>{
   console.log(error);
