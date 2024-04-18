@@ -6,7 +6,7 @@ function MainLayout() {
   return (
     <div>
         <Navbar/>
-        <main className="align-element mt-28 text-center">
+        <main className="align-element mt-36 text-center">
        <Outlet/>
         </main>
     </div>
