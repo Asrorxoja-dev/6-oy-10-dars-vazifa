@@ -14,6 +14,12 @@ import { GlobalContext, GlobalContextProvider } from "./context/useGlobalContext
 import { auth } from "./firebase/fireBaseConfig"
 import { onAuthStateChanged } from "firebase/auth"
 
+import {action as signupAction} from './pages/Signup'
+import {action as signinAction} from './pages/Signin'
+
+import Create from "./pages/Create"
+import SingleResipie from "./pages/SingleResipie"
+
 function App() {
 const { user, dispatch, authChange } = useContext(GlobalContext)
 const routes = createBrowserRouter([
@@ -35,17 +41,29 @@ const routes = createBrowserRouter([
       {
         path:"/contact",
         element:<Contact/>
+      },
+
+      {
+        path:"/create",
+        element:<Create/>
+      },
+      {
+        path:"/singleResipie/:id",
+        element:<SingleResipie/>
       }
 
     ]
   },
   {
     path:"/signin",
-    element: user ? <Navigate to="/" /> : <Signin/>
+    element: user ? <Navigate to="/" /> : <Signin/>,
+    action: signinAction, 
+
   },
   {
     path:"/signup",
-    element: user ? <Navigate to="/" /> : <Signup/> 
+    element: user ? <Navigate to="/" /> : <Signup/>,
+    action: signupAction, 
   }
 ])
 

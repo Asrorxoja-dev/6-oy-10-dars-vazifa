@@ -1,0 +1,28 @@
+{
+  "recipies": [
+    {
+      "id": "1",
+      "Image": "https://arbuz.com/wp-content/uploads/2009/12/Uzbek-Palov.jpg",
+      "title": "Palov",
+      "ingredients": "guruch sabzi yog gosht piyoz zira suv",
+      "cookingTime": "60 minutes",
+      "method": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quos fugit assumenda quisquam cupiditate nihil."
+    },
+    {
+      "id": "2",
+      "title": "Mastava",
+      "Image": "https://53a7276f-d68f-462e-a2bf-df223e005be4.selstorage.ru/uploads/media/photo/1112466/7960f300-e553-40dc-bb28-0c6ae6762c47.webp",
+      "ingredients": "guruch sabzi yog gosht piyoz zira suv",
+      "cookingTime": "60 minutes",
+      "method": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quos fugit assumenda quisquam cupiditate nihil."
+    },
+    {
+      "id": "368d",
+      "title": "osh",
+      "cookingTime": "60 minutes",
+      "method": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quos fugit assumenda quisquam cupiditate nihil.",
+      "Image": "https://arbuz.com/wp-content/uploads/2009/12/Uzbek-Palov.jpg",
+      "ingredients": "gosht"
+    }
+  ]
+}

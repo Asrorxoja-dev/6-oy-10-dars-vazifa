@@ -22,7 +22,7 @@ function NavLinks() {
   return (
     <div>
     {links.map((link)=>{
-       return <Link className="px-3 py-2 hover:bg-base-content hover:text-white rounded" key={link.id} to={link.link}>{link.text}</Link>
+       return <Link className="px-5 py-2 text-1xl font-semibold hover:bg-base-content hover:text-white rounded" key={link.id} to={link.link}>{link.text}</Link>
     })}
     </div>
   )
