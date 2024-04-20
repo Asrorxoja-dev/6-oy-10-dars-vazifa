@@ -44,7 +44,7 @@ function Navbar() {
   }, [theme]);
 
   return (
-    <div style={{ backgroundColor: navbarBgColor }}>
+    <div className="bg-base-300">
       <div className="navbar align-element">
         <div className="navbar-start">
           <Link to="/" className="btn btn-primary lg:btn-lg hidden lg:flex">
