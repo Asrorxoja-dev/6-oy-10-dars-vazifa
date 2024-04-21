@@ -34,7 +34,7 @@ useEffect(() => {
     signInWithEmailAndPassword(userSignin.email, userSignin.password);
   }
 }, [userSignin]);
-console.log(userSignin);
+
   return (
     <div className=" grid place-items-center mt-20">
    <div className="max-w-96 w-full">
