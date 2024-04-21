@@ -36,7 +36,7 @@ useEffect(() => {
 }, [userSignin]);
 console.log(userSignin);
   return (
-    <div className=" grid place-items-center mt-20 ">
+    <div className=" grid place-items-center mt-20">
    <div className="max-w-96 w-full">
    <Form method="post">
     <FormInput type="email" label="Email" name="Email"/>

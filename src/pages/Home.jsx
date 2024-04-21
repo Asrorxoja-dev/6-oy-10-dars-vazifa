@@ -19,7 +19,7 @@ useEffect(()=>{
 
   return (
    <div>
-    <h1 className="text-3xl font-bold mb-10">Recipies</h1>
+    {recipies ? <h1 className="text-3xl font-bold mb-10">Recipies</h1> : <h1 className="text-3xl font-bold mb-10">No recipies available.</h1>}
   {recipies && <RecipiesList recipies={recipies}/>}
    </div>
    
