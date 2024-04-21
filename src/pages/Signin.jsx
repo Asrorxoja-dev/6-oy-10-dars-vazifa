@@ -37,8 +37,8 @@ useEffect(() => {
 
   return (
     <div className=" grid place-items-center mt-20">
-   <div className="max-w-96 w-full">
-   <Form method="post">
+   <div className="max-w-96 border-2 rounded-md  w-full">
+   <Form method="post" className="p-4">
     <FormInput type="email" label="Email" name="Email"/>
     <FormInput type="password" label="Password" name="Password"/>
      <div>

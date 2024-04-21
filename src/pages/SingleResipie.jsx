@@ -24,7 +24,7 @@ function SingleResipie() {
       <div className="object-cover rounded bg-slate-100  p-5 mb-10">
         <h1 className="text-4xl mb-5">Recipe elements</h1>
         <img src={recipie.Image} alt="" className="w-full h-80 object-cover rounded mb-5" />
-        <h1 className="text-4xl mb-5">Name: {recipie.title}</h1>
+        <h1 className="text-4xl mb-5">{recipie.title}</h1>
         <h2 className="mb-5 text-2xl letter">Ingredients: {recipie.ingredients} </h2>
         <h3 className="text-2xl mb-5">Cooking time: {recipie.cookingTime}</h3>
         <h3 className="text-2xl mb-5">Method: {recipie.method}</h3>
